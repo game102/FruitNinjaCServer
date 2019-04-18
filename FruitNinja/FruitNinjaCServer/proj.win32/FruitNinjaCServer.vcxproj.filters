@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\3rd">
+      <UniqueIdentifier>{42cfd48f-8613-4c52-ac74-7eeb6234edae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gateway">
+      <UniqueIdentifier>{dd2ddfaa-e02e-4b26-9048-b7833493d508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\services">
+      <UniqueIdentifier>{3de1ea4d-372d-437c-8b3e-6699047836a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\socket_io">
+      <UniqueIdentifier>{c97d1b58-20b0-46de-8737-48e9e5ce48fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\3rd\crypt">
+      <UniqueIdentifier>{fdebef59-6499-461d-ac8e-3354e5a23f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\3rd\http_parser">
+      <UniqueIdentifier>{7c02bb8c-958d-40ee-a3dc-10bd515fb92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\utils">
+      <UniqueIdentifier>{eaf7f6f2-cbae-4ab5-8175-8da5ba887988}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\utils\timer_list.c">
+      <Filter>Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\main.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\3rd\crypt\base64_encoder.c">
+      <Filter>Src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\3rd\crypt\sha1.c">
+      <Filter>Src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\3rd\http_parser\http_parser.c">
+      <Filter>Src\3rd\http_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\httpc\httpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\httpc\httpc_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\utils\timer.h">
+      <Filter>Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\utils\timer_list.h">
+      <Filter>Src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\3rd\crypt\base64_encoder.h">
+      <Filter>Src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\3rd\crypt\sha1.h">
+      <Filter>Src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\3rd\http_parser\http_parser.h">
+      <Filter>Src\3rd\http_parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
